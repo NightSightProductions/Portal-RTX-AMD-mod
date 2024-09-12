@@ -1,0 +1,1 @@
+Older AMD support is still being worked on
