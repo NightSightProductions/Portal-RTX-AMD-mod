@@ -1,0 +1,19 @@
+ Instructions:
+  1. Select your architecture
+  2. Drag and drop contents of dxvk-patch into .trex folder in Portal RTX bin (required for RDNA 2 only)
+  3. Drag and drop one of the rtx.conf presets into Portal RTX directory, make sure to replace existing rtx.conf (Optional for RDNA 3)
+
+ Tested GPUs and resolutions
+  RX 6600xt at 1080p 30fps (Low Preset)
+  RX 6700 at 1080p 30fps (Medium Preset)
+  RX 7600 at 1080p 60fps & 1440p 40fps (Ultra Performance Medium Preset)
+
+ Warning: While in ALT + X dev menu, do not go to the remix graphics menu, this will revert some changes and reduce performance
+
+ If you need support, you can join our discord through the mod site
+
+  How to know your architecture:
+   RDNA 2: 6000 series, 600m series
+   RDNA 3: 7000 series, 700m series
+
+ We would love feedback for other GPUs
