@@ -1,14 +1,18 @@
  Instructions:
-  1. Select your architecture
-  2. Drag and drop contents of dxvk-patch into .trex folder in Portal RTX bin (required for RDNA 2 only)
-  3. Drag and drop one of the rtx.conf presets into Portal RTX directory, make sure to replace existing rtx.conf (Optional for RDNA 3)
+  1. Select your OS
+  2. Select your architecture
+  3. Drag and drop contents of dxvk-patch into .trex folder in Portal RTX bin
+  4. Drag and drop one of the rtx.conf presets into Portal RTX directory, make sure to replace existing rtx.conf (Optional for RDNA 3)
 
- Tested GPUs and resolutions
-  RX 6600xt at 1080p 30fps (Low Preset)
-  RX 6700 at 1080p 30fps (Medium Preset)
-  RX 7600 at 1080p 60fps & 1440p 40fps (Ultra Performance Medium Preset)
+ Tested GPUs and resolutions (v1.5 tests)
+  RX 7600 at 1080p 60fps (Windows Medium Preset)
+  RX 7900 GRE at 1440p 60fps (Windows Ultra Preset)
+  RX 6400 at 720p 30fps (Windows Low Preset)
+  RX 7900XTX at 2160p 60fps (Linux High Preset)
+  
+ FSR 3.1 can be toggled through ALT + X and changing upscaler to DLSS
 
- Warning: While in ALT + X dev menu, do not go to the remix graphics menu, this will revert some changes and reduce performance
+ Warning: While in ALT + X dev menu, do not go to the remix graphics menu, this will revert some changes and reduce performance (Only if using TAA-U or NIS, Does not affect FSR)
 
  If you need support, you can join our discord through the mod site
 
@@ -16,4 +20,8 @@
    RDNA 2: 6000 series, 600m series
    RDNA 3: 7000 series, 700m series
 
+Note: Handhelds with Z1/Z1 Extreme APUs use 700m graphics
+
  We would love feedback for other GPUs
+
+Special thanks to the Optiscaler team for helping us get FSR 3.1 working, you can find their GitHub here: https://github.com/cdozdil/OptiScaler
