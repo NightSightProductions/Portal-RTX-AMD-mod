@@ -2,13 +2,7 @@
   1. Select your OS
   2. Select your architecture
   3. Drag and drop contents of dxvk-patch into .trex folder in Portal RTX bin
-  4. Drag and drop one of the rtx.conf presets into Portal RTX directory, make sure to replace existing rtx.conf (Optional for RDNA 3)
-
- Tested GPUs and resolutions (v1.5 tests)
-  RX 7600 at 1080p 60fps (Windows Medium Preset)
-  RX 7900 GRE at 1440p 60fps (Windows Ultra Preset)
-  RX 6400 at 720p 30fps (Windows Low Preset)
-  RX 7900XTX at 2160p 60fps (Linux High Preset)
+  4. Drag and drop one of the rtx.conf presets into Portal RTX directory, make sure to replace existing rtx.conf (Optional for RDNA 3 and higher)
   
  FSR 3.1 can be toggled through ALT + X and changing upscaler to DLSS
 
@@ -17,11 +11,16 @@
  If you need support, you can join our discord through the mod site
 
   How to know your architecture:
+
    RDNA 2: 6000 series, 600m series
    RDNA 3: 7000 series, 700m series
+   RDNA 3.5: 8000 series 800m series
+   RDNA 4: 9000 series
 
-Note: Handhelds with Z1/Z1 Extreme APUs use 700m graphics
+   If you are on RDNA 4 or higher, you don't really need the mod presets, but if you want extra performance, you can use RDNA 3 for the best results
+
+Note: Handhelds with Z1/Z1 Extreme or higher APUs use 700m/800m graphics, A BC-250 (PS5 APU) is technically pre RDNA 2 but does support hardware RayTracing
 
  We would love feedback for other GPUs
 
-Special thanks to the Optiscaler team for helping us get FSR 3.1 working, you can find their GitHub here: https://github.com/cdozdil/OptiScaler
+Special thanks to NightSightProductions member CR (cattarappa) for the XeSS 2 implementation 
